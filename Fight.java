@@ -1,6 +1,0 @@
-public Fight{
-	public fight(){
-		
-	}
-
-}
