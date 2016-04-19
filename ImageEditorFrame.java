@@ -7,23 +7,6 @@ import javax.imageio.*;
 
 
 public class ImageEditorFrame extends JFrame{
-<<<<<<< HEAD
-	
-	public ImageEditorFrame(){
-		
-		 setDefaultCloseOperation(EXIT_ON_CLOSE);
-		 setSize(400, 300);
-		 setVisible(true);
-		 }
-		
-
-	public static void main(String[] args) {
-		new ImageEditorFrame();
-
-	}
-
-}
-
 private void createMenuBar(){
  JMenuBar menuBar = new JMenuBar();
  setJMenuBar(menuBar);
@@ -43,12 +26,21 @@ private void createMenuBar(){
 private void onOpen(){
  JOptionPane.showMessageDialog(this, "Open Selected");
 }
-=======
-    	public ImageEditorFrame(){ 
-		setTitle("ImageEditor");
-    	setDefaultCloseOperation(EXIT_ON_CLOSE);
-    	setSize(400,  300);       
-	setVisible(true);    
-	} 
+	
+	public ImageEditorFrame(){
+		
+		 setDefaultCloseOperation(EXIT_ON_CLOSE);
+		 setSize(400, 300);
+		 setVisible(true);
+		 }
+		
+
+	public static void main(String[] args) {
+		new ImageEditorFrame();
+
+	}
+
 }
->>>>>>> b4122ad2039f054eaad4c672851598ca58bcec14
+
+
+
